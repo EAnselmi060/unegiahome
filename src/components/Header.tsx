@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,12 +21,13 @@ const Header = () => {
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-blue-900 shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-[#010080] shadow-lg' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center">
+          <div className="flex items-center space-x-2">
+            <img src="/Imagen146 copy.png" alt="UNEG Logo" className="h-10 w-auto" />
             <span className="text-white font-bold text-xl md:text-2xl">UNEGIA</span>
           </div>
 
@@ -43,7 +44,7 @@ const Header = () => {
           <div className="hidden md:block">
             <a 
               href="#inscripcion" 
-              className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2 rounded-md transition-colors duration-300"
+              className="bg-[#002AD3] hover:bg-[#0020A0] text-white font-medium px-6 py-2 rounded-md transition-colors duration-300"
             >
               Inscripción
             </a>
@@ -63,7 +64,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-blue-900">
+        <div className="md:hidden bg-[#010080]">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
               <a 
@@ -103,7 +104,7 @@ const Header = () => {
               </a>
               <a 
                 href="#inscripcion" 
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2 rounded-md transition-colors duration-300 text-center"
+                className="bg-[#002AD3] hover:bg-[#0020A0] text-white font-medium px-6 py-2 rounded-md transition-colors duration-300 text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Inscripción

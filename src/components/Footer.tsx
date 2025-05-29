@@ -2,11 +2,14 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-950 text-white">
+    <footer className="bg-[#010080] text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">UNEGIA</h3>
+            <div className="flex items-center space-x-2 mb-4">
+              <img src="/Imagen146 copy.png" alt="UNEG Logo" className="h-8 w-auto" />
+              <h3 className="text-xl font-bold">UNEGIA</h3>
+            </div>
             <p className="text-blue-200 mb-6">
               Unidad de Gestión de la Automatización e Inteligencia Artificial
             </p>
@@ -70,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-blue-800 mt-12 pt-8 text-center text-blue-300">
+        <div className="border-t border-[#010060] mt-12 pt-8 text-center text-blue-300">
           <p>&copy; {new Date().getFullYear()} UNEGIA - Todos los derechos reservados</p>
         </div>
       </div>

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section 
       id="inicio" 
-      className="relative pt-20 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 overflow-hidden"
+      className="relative pt-20 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-[#010080] via-[#010070] to-[#010080] overflow-hidden"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
@@ -41,14 +41,14 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
               <a 
                 href="#programas" 
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-md transition-colors duration-300 flex items-center justify-center"
+                className="bg-[#002AD3] hover:bg-[#0020A0] text-white font-medium px-8 py-3 rounded-md transition-colors duration-300 flex items-center justify-center"
               >
                 Explorar Programas
                 <ArrowRight size={16} className="ml-2" />
               </a>
               <a 
                 href="#contacto" 
-                className="bg-transparent border border-white text-white hover:bg-white hover:text-blue-900 font-medium px-8 py-3 rounded-md transition-colors duration-300"
+                className="bg-transparent border border-white text-white hover:bg-white hover:text-[#010080] font-medium px-8 py-3 rounded-md transition-colors duration-300"
               >
                 Contactar
               </a>
@@ -57,11 +57,11 @@ const Hero = () => {
           <div className="md:w-1/2 relative">
             <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden shadow-2xl transform transition-transform hover:scale-[1.02]">
               <img 
-                src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="AI and Blockchain Technology" 
+                src="/Unegia1.png" 
+                alt="UNEGIA Avatar" 
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/90 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#010080]/90 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <h3 className="text-xl font-bold text-white mb-2">Automatización con Blockchain e IA</h3>
                 <p className="text-blue-100">Potencia tu carrera con las tecnologías del futuro</p>
