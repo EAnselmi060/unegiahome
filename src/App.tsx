@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Programs from './components/Programs';
 import Features from './components/Features';
 import Stats from './components/Stats';
+import Team from './components/Team';
 import Contact from './components/Contact';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
