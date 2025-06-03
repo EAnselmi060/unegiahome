@@ -57,7 +57,7 @@ const Hero = () => {
           <div className="md:w-1/2 relative">
             <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden shadow-2xl transform transition-transform hover:scale-[1.02]">
               <img 
-                src="/Unegia1.png" 
+                src="unegiahome/Unegia1.png" 
                 alt="UNEGIA Avatar" 
                 className="w-full h-full object-cover"
               />
