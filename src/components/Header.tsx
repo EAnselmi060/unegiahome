@@ -27,7 +27,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <img src="/Imagen146.png" alt="UNEG Logo" className="h-10 w-auto" />
+            <img src="Imagen146.png" alt="UNEG Logo" className="h-10 w-auto" />
             <span className="text-white font-bold text-xl md:text-2xl">UNEGIA</span>
           </div>
 
