@@ -7,11 +7,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/Imagen146 copy.png" alt="UNEG Logo" className="h-8 w-auto" />
+              <img src="Imagen146 copy.png" alt="UNEG Logo" className="h-8 w-auto" />
               <h3 className="text-xl font-bold">UNEGIA</h3>
             </div>
             <p className="text-blue-200 mb-6">
-              Unidad de Gestión de la Automatización e Inteligencia Artificial
+                Dirección de Sistemas Automatizados e Inteligentes 
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-blue-200 hover:text-white transition-colors">
