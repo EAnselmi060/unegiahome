@@ -25,10 +25,18 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          <div className="flex items-center space-x-2">
-            <img src="Imagen146.png" alt="UNEG Logo" className="h-10 w-auto" />
-            <span className="text-white font-bold text-xl md:text-2xl">UNEGIA</span>
+        <div className="flex justify-between items-center py-3">
+          <div className="flex items-center space-x-4">
+            <img 
+              src="Imagen146 copy.png" 
+              alt="UNEG Logo" 
+              className="h-16 w-auto"
+            />
+            <div className="text-white">
+              <div className="font-bold text-lg leading-tight">Universidad Nacional Experimental de Guayana</div>
+              <div className="font-bold text-lg leading-tight">Rectorado</div>
+              <div className="font-bold text-lg leading-tight">Dirección de Sistemas Automatizados Inteligentes</div>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

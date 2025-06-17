@@ -57,9 +57,9 @@ const Hero = () => {
           <div className="md:w-1/2 relative">
             <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden shadow-2xl transform transition-transform hover:scale-[1.02]">
               <img 
-                src="Unegia1.png" 
-                alt="UNEGIA Avatar" 
-                className="w-full h-full object-cover"
+                  src="Unegia1.png" 
+                  alt="UNEGIA - Estudiante representando la excelencia académica" 
+                  className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#010080]/90 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
